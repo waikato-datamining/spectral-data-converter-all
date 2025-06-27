@@ -40,7 +40,7 @@ Steps:
 Docker
 ======
 
-* create copy of most recent release Docker image, e.g., [docker/0.0.2](docker/0.0.2), and rename it to just released version
+* create copy of most recent release Docker image, e.g., [docker/0.0.1](docker/0.0.1), and rename it to just released version
 * link to new version from [docker/README.md](docker/README.md)
 * update version in `bash.bashrc`
 * update version of spectral-data-converter-all library to just released one
