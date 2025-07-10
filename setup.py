@@ -31,7 +31,7 @@ setup(
         "spectral_data_converter_sklearn>=0.0.1",
         "spectral_data_converter_vis>=0.0.1",
     ],
-    version="0.0.1",
+    version="0.0.2",
     author='Peter Reutemann',
     author_email='fracpete@waikato.ac.nz',
 )
