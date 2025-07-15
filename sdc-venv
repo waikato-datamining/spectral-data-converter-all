@@ -6,7 +6,7 @@ function usage()
    echo
    echo "${0##*/} [-v <dir>] [-r] [-p <python>] [-l] [-L <dir>] [-q] [-h]"
    echo
-   echo "Installs or updates a spectral-data-converter virtual environment."
+   echo "Creates or updates a spectral-data-converter virtual environment."
    echo "Requires the 'venv' modules to be available to the Python 3 interpreter."
    echo
    echo " -h   this help"
