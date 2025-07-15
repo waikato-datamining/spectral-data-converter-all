@@ -16,6 +16,11 @@ The latest code straight from the repository:
 pip install git+https://github.com/waikato-datamining/spectral-data-converter-all.git
 ```
 
+Via script (using code from repos or local dirs):
+
+``` bash
+./sdc-venv [options, use -h to see help screen]
+```
 
 ## Docker
 
