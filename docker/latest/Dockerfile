@@ -26,6 +26,8 @@ RUN apt-get update && \
 
 RUN python3 -m venv /opt/spectral-data-converter && \
     /opt/spectral-data-converter/bin/pip --no-cache-dir install \
+        git+https://github.com/waikato-datamining/seppl.git \
+        git+https://github.com/waikato-datamining/kasperl.git \
         git+https://github.com/waikato-datamining/spectral-data-converter.git \
         git+https://github.com/waikato-datamining/spectral-data-converter-sklearn.git \
         git+https://github.com/waikato-datamining/spectral-data-converter-vis.git

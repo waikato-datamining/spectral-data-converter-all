@@ -101,6 +101,14 @@ if [ "$local_repos" = "yes" ]
 then
   echo
   echo "Installing/updating from local repos..."
+  if [ -d "$local_base_dir/seppl" ]
+  then
+    $venv_dir/bin/pip install -U $local_base_dir/seppl
+  fi
+  if [ -d "$local_base_dir/kasperl" ]
+  then
+    $venv_dir/bin/pip install -U $local_base_dir/kasperl
+  fi
   $venv_dir/bin/pip install -U \
       $local_base_dir/spectral-data-converter \
       $local_base_dir/spectral-data-converter-vis \
@@ -109,6 +117,8 @@ else
   echo
   echo "Installing/updating from remote Github repos..."
   $venv_dir/bin/pip install -U \
+      git+https://github.com/waikato-datamining/seppl.git \
+      git+https://github.com/waikato-datamining/kasperl.git \
       git+https://github.com/waikato-datamining/spectral-data-converter.git \
       git+https://github.com/waikato-datamining/spectral-data-converter-vis \
       git+https://github.com/waikato-datamining/spectral-data-converter-sklearn
