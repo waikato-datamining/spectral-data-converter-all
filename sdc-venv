@@ -117,14 +117,14 @@ then
     $venv_dir/bin/pip install -U \
         git+https://github.com/waikato-datamining/kasperl.git
   fi
-  $venv_dir/bin/pip install -U \
+  $venv_dir/bin/pip install -U -I \
       $local_base_dir/spectral-data-converter \
       $local_base_dir/spectral-data-converter-vis \
       $local_base_dir/spectral-data-converter-sklearn
 else
   echo
   echo "Installing/updating from remote Github repos..."
-  $venv_dir/bin/pip install -U \
+  $venv_dir/bin/pip install -U -I \
       git+https://github.com/waikato-datamining/seppl.git \
       git+https://github.com/waikato-datamining/kasperl.git \
       git+https://github.com/waikato-datamining/spectral-data-converter.git \
