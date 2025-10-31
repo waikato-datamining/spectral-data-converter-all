@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.1.0 (????-??-??)
+0.1.0 (2025-10-31)
 ------------------
 
 - upgraded spectral_data_converter to 0.1.0: https://github.com/waikato-datamining/spectral-data-converter/releases/tag/v0.1.0
