@@ -29,7 +29,7 @@ setup(
     install_requires=[
         "spectral_data_converter>=0.1.0",
         "spectral_data_converter_sklearn>=0.1.0",
-        "spectral_data_converter_vis>=0.0.1",
+        "spectral_data_converter_vis>=0.1.0",
     ],
     version="0.0.2",
     author='Peter Reutemann',
